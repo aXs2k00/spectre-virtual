@@ -1,0 +1,12 @@
+# Set wallpaper
+feh --bg-fill "$HOME/Pictures/wallpapers/spectre-vaporwave.png" &
+
+# Start Tint2 panels
+pkill tint2 2>/dev/null
+sleep 0.5
+nohup tint2 -c "$HOME/.config/tint2/top-taskbar.tint2rc" >/dev/null 2>&1 &
+nohup tint2 -c "$HOME/.config/tint2/bottom-launcher.tint2rc" >/dev/null 2>&1 &
+
+# Start Conky docked right edge
+pkill conky 2>/dev/null
+nohup conky -c "$HOME/.config/conky/conky.conf" >/dev/null 2>&1 &

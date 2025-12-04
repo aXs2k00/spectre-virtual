@@ -1,0 +1,85 @@
+# Top taskbar with subtle vaporwave gradient
+# Position and sizing
+panel_items = LTSCP
+panel_monitor = all
+panel_position = top center horizontal
+panel_size = 100% 36
+panel_margin = 4 4
+panel_padding = 12 4 12
+panel_background_id = 1
+
+# Taskbar settings
+taskbar_mode = multi_desktop
+stretch_taskbar = 1
+wm_menu = 0
+clock_lclick_command = calcurse -d3
+clock_rclick_command = gsimplecal
+
+# Launchers, taskbar, system tray, clock, power
+launcher_padding = 8 4 8
+launcher_icon_size = 20
+launcher_background_id = 2
+launcher_item_app = /usr/share/applications/x-terminal-emulator.desktop
+launcher_item_app = /usr/share/applications/firefox.desktop
+launcher_item_app = /usr/share/applications/thunar.desktop
+
+# Task settings
+task_text = 1
+urgent_nb_of_blink = 6
+task_maximum_size = 200 28
+task_padding = 8 4 8
+task_font = IBM Plex Mono 10
+
+task_normal_background_id = 2
+task_active_background_id = 3
+task_urgent_background_id = 4
+
+task_centered = 1
+
+# System tray
+systray_padding = 8 4 8
+systray_icon_size = 18
+systray_background_id = 2
+
+# Clock
+time1_format = %a %d %b  %H:%M
+clock_font = IBM Plex Mono 10
+clock_padding = 12 0
+clock_background_id = 2
+
+# Battery/CPU graphs could be added via executors; kept minimal for lightness.
+
+# Colors and backgrounds
+rounded = 6
+border_width = 1
+color1 = #101529 90
+color2 = #1c2138 95
+color3 = #2a2f4d 95
+color4 = #ff93d3 90
+color5 = #7bf6ff 90
+
+background_color = #000000 0
+
+bg1 = solid
+bg1.color = #0d1020 85
+bg1.border_color = #7bf6ff 45
+bg1.border_width = 1
+bg1.border_radius = 10
+
+bg2 = solid
+bg2.color = #13182d 90
+bg2.border_color = #ff93d3 45
+bg2.border_width = 1
+bg2.border_radius = 8
+
+bg3 = solid
+bg3.color = #1a1f35 92
+bg3.border_color = #7bf6ff 80
+bg3.border_width = 1
+bg3.border_radius = 8
+
+bg4 = solid
+bg4.color = #ff93d3 90
+bg4.border_color = #7bf6ff 90
+bg4.border_width = 1
+bg4.border_radius = 8
