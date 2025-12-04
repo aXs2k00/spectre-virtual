@@ -1,0 +1,42 @@
+# Bottom icon-only launcher
+panel_items = L
+panel_monitor = all
+panel_position = bottom center horizontal
+panel_size = 70% 44
+panel_margin = 6 6
+panel_padding = 12 6 12
+panel_background_id = 1
+
+launcher_padding = 10 10 10
+launcher_icon_size = 28
+launcher_background_id = 2
+launcher_icon_theme = Papirus-Dark
+launcher_tooltip = 1
+
+# Most-used apps for offsec workflow
+launcher_item_app = /usr/share/applications/x-terminal-emulator.desktop
+launcher_item_app = /usr/share/applications/nvim.desktop
+launcher_item_app = /usr/share/applications/firefox.desktop
+launcher_item_app = /usr/share/applications/burpsuite.desktop
+launcher_item_app = /usr/share/applications/wireshark.desktop
+launcher_item_app = /usr/share/applications/keepassxc.desktop
+launcher_item_app = /usr/share/applications/thunar.desktop
+launcher_item_app = /usr/share/applications/xfce4-screenshooter.desktop
+
+rounded = 12
+border_width = 1
+color1 = #0d1020 90
+color2 = #7bf6ff 60
+color3 = #ff93d3 60
+
+bg1 = solid
+bg1.color = #0d1020 75
+bg1.border_color = #7bf6ff 50
+bg1.border_width = 1
+bg1.border_radius = 14
+
+bg2 = solid
+bg2.color = #15192c 92
+bg2.border_color = #ff93d3 60
+bg2.border_width = 1
+bg2.border_radius = 14

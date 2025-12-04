@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f" />
+      <stop offset="50%" stop-color="#15182b" />
+      <stop offset="100%" stop-color="#1f1140" />
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff93d3" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#7bf6ff" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="grid" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#7bf6ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ff93d3" stop-opacity="0.25" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)" />
+  <circle cx="960" cy="320" r="220" fill="url(#sun)" opacity="0.82" />
+  <g transform="translate(0,520)">
+    <rect x="0" y="0" width="1920" height="560" fill="#070911" opacity="0.7" />
+    <g stroke="url(#grid)" stroke-width="2">
+      <g id="h-lines">
+        <path d="M0 40 L1920 0" />
+        <path d="M0 90 L1920 20" />
+        <path d="M0 150 L1920 50" />
+        <path d="M0 220 L1920 90" />
+        <path d="M0 300 L1920 140" />
+        <path d="M0 390 L1920 200" />
+        <path d="M0 490 L1920 270" />
+      </g>
+      <g id="v-lines">
+        <path d="M480 0 L960 520" />
+        <path d="M720 0 L960 520" />
+        <path d="M960 0 L960 520" />
+        <path d="M1200 0 L960 520" />
+        <path d="M1440 0 L960 520" />
+        <path d="M1680 0 L960 520" />
+        <path d="M240 0 L960 520" />
+        <path d="M0 0 L960 520" />
+      </g>
+    </g>
+  </g>
+  <text x="50%" y="180" text-anchor="middle" font-family="'IBM Plex Mono', 'Fira Code', monospace" font-size="64" fill="#9df1ff" opacity="0.85" letter-spacing="4">S P E C T R E   V I R T U A L</text>
+  <text x="50%" y="240" text-anchor="middle" font-family="'IBM Plex Mono', 'Fira Code', monospace" font-size="24" fill="#ffb7f2" opacity="0.85" letter-spacing="6">DEVUAN / OPENBOX / OFFSEC</text>
+</svg>
